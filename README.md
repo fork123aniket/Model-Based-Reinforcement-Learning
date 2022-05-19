@@ -11,6 +11,7 @@ A concise explaination of Model-based reinforcement learning algorithm can be fo
 - `Model_based_RL.py` file contains code statements related to ***Model Network*** and ***Policy Network*** that are being used here.
 - The training procedure involves switching between training the ***Model Network*** using the real environment, and training the agent’s policy using the model environment. By using this approach, the ***Model Network*** will be able to learn a policy that allows the trained agent to solve the ***CartPole*** task without actually ever training the policy on the real environment.
 - All hyperparameters to train the two networks can be found in `Model_based_RL.py`.
+- The *episode number, action, reward and mean reward* are printed after very epoch during training time.
 ## Results
 | CartPole-v1 Environment        | CartPole-v1 Results           |
 | ------------------------------ |:-----------------------------:|
